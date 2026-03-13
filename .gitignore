@@ -1,0 +1,55 @@
+# Large model files and directories
+models/
+*.bin
+*.safetensors
+modelWeights
+modelWeights.*
+
+# Speech/language model artifacts (FST, large binaries)
+speech_5gram/
+*.fst
+
+# Competition and training data
+competitionData/
+data/
+derived/
+*_readme.txt
+
+# Training outputs and checkpoints
+outputs/
+config1/
+modal_runs/
+eval_output/
+
+# Language model decoder cache
+LanguageModelDecoder/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Agent-helping docs (keep README.md)
+*WORKFLOW*.md
+*REPORT*.md
+*COMMANDS*.md
+*HANDOFF*.md
+updates.md
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
